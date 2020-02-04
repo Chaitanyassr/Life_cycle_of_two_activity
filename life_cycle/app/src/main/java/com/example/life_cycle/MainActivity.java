@@ -61,4 +61,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(getApplicationContext(),lifecycle2.class);
         startActivity(intent);
     }
+
+    public void clickclick(View view) {
+        Intent intent=new Intent(getApplicationContext(),lifecycle2.class);
+        startActivity(intent);
+
+    }
 }
